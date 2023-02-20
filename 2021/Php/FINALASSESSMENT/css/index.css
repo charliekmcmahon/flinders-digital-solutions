@@ -1,0 +1,40 @@
+.board-container {
+	width: 15%;
+	height: 15%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: lightgray;
+  padding: 5px;
+	min-width: 310px;
+	max-width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.grid-item:hover {
+	background-color: silver;
+}
+
+.headerImage {
+	max-height: 2rem !important;
+}
+
+.gridImage {
+	max-width: 4rem !important;
+	max-height: 4rem !important;
+	min-height: 4rem !important;
+	min-width: 4rem !important;
+}
